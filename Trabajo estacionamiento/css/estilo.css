@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+  background-color: beige;
+}
+.formulario{
+  border: 1px solid black;
+  width: 90%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+form{
+  margin-top:3%;
+  width: 15%;
+  height: 75%;
+  border-radius: 15px;
+  background-color: aquamarine;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form input{ 
+  margin-bottom: 3%;
+    margin-top: 5%;
+    width: 150px;
+    height: 20px;
+}
+
+.puestoslibres{
+  max-height: 100%;
+  overflow: scroll;
+  width: 25%;
+  height: 100%;
+  border: 1px solid blue;
+}

@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(202, 206, 211);
+}
+    .estacionamiento{
+margin-left: -2%;
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+
+.espacio{
+    margin-top: 10px;
+    margin-left: 5%;
+    justify-content: space-around;
+    flex-flow: column;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 55px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+}
+.espacio .ocupado{
+    background-color: rgb(22, 88, 1);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
